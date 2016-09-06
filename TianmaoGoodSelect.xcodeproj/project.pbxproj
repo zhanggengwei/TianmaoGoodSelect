@@ -15,6 +15,7 @@
 		750C890D1D451C5A0024BBB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750C890B1D451C5A0024BBB5 /* LaunchScreen.storyboard */; };
 		750C89181D451C5A0024BBB5 /* TianmaoGoodSelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C89171D451C5A0024BBB5 /* TianmaoGoodSelectTests.m */; };
 		750C89231D451C5A0024BBB5 /* TianmaoGoodSelectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C89221D451C5A0024BBB5 /* TianmaoGoodSelectUITests.m */; };
+		750C89321D451CC60024BBB5 /* RJGoodSelectVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C89311D451CC60024BBB5 /* RJGoodSelectVIew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		750C891E1D451C5A0024BBB5 /* TianmaoGoodSelectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TianmaoGoodSelectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		750C89221D451C5A0024BBB5 /* TianmaoGoodSelectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TianmaoGoodSelectUITests.m; sourceTree = "<group>"; };
 		750C89241D451C5A0024BBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		750C89301D451CC60024BBB5 /* RJGoodSelectVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJGoodSelectVIew.h; sourceTree = "<group>"; };
+		750C89311D451CC60024BBB5 /* RJGoodSelectVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJGoodSelectVIew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				750C89001D451C5A0024BBB5 /* AppDelegate.h */,
 				750C89011D451C5A0024BBB5 /* AppDelegate.m */,
 				750C89031D451C5A0024BBB5 /* ViewController.h */,
+				750C89301D451CC60024BBB5 /* RJGoodSelectVIew.h */,
+				750C89311D451CC60024BBB5 /* RJGoodSelectVIew.m */,
 				750C89041D451C5A0024BBB5 /* ViewController.m */,
 				750C89061D451C5A0024BBB5 /* Main.storyboard */,
 				750C89091D451C5A0024BBB5 /* Assets.xcassets */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				750C89051D451C5A0024BBB5 /* ViewController.m in Sources */,
+				750C89321D451CC60024BBB5 /* RJGoodSelectVIew.m in Sources */,
 				750C89021D451C5A0024BBB5 /* AppDelegate.m in Sources */,
 				750C88FF1D451C5A0024BBB5 /* main.m in Sources */,
 			);
@@ -415,7 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TianmaoGoodSelect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.soft.demo1.TianmaoGoodSelect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soft.demo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -426,7 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TianmaoGoodSelect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.soft.demo1.TianmaoGoodSelect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soft.demo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -496,6 +502,7 @@
 				750C89291D451C5A0024BBB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		750C892A1D451C5A0024BBB5 /* Build configuration list for PBXNativeTarget "TianmaoGoodSelectTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				750C892C1D451C5A0024BBB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		750C892D1D451C5A0024BBB5 /* Build configuration list for PBXNativeTarget "TianmaoGoodSelectUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				750C892F1D451C5A0024BBB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

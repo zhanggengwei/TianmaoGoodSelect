@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "RJGoodSelectVIew.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    RJGoodSelectVIew * view = [[RJGoodSelectVIew alloc]initWithFrame:self.view.bounds];
+    [self.view addSubview:view];
+     
 }
 
 - (void)didReceiveMemoryWarning {
